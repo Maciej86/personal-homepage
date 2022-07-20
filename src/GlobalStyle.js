@@ -12,6 +12,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1216px;
+    margin-top: 119px;
     background: rgb(230, 230, 230);
     font-family: 'Inter', sans-serif;
     word-break: break-word;
