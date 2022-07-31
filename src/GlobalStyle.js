@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     margin-top: 119px;
-    background: rgb(230, 230, 230);
+    background: ${({ theme }) => theme.color.background};
     font-family: 'Inter', sans-serif;
     word-break: break-word;
   }
@@ -23,5 +23,6 @@ export const GlobalStyle = createGlobalStyle`
   #root {
     width: 90%;
     max-width: 1216px;
+    margin: 150px 10px 30px 10px;
   }
 `;
