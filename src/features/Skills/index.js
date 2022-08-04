@@ -33,5 +33,11 @@ export const Skills = () => {
     </List>
   );
 
-  return <BigTile header={"My skillset includes"} content={ListSkills} />;
+  return (
+    <BigTile
+      header={"My skillset includes"}
+      images={"🛠️"}
+      content={ListSkills}
+    />
+  );
 };
