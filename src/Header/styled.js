@@ -42,7 +42,7 @@ export const ThisIs = styled.p`
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: ${({ theme }) => theme.color.salateGray};
+  color: ${({ theme }) => theme.color.slateGray};
 `;
 
 export const Name = styled.h1`
