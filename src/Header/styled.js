@@ -65,7 +65,7 @@ export const Email = styled.button`
   padding: 12px 16px;
   background: ${({ theme }) => theme.color.scienceBlue};
   border: 1px solid ${({ theme }) => theme.color.iron};
-  border-radius: 4px;
+  border-radius: ${({ theme }) => theme.radius};
   color: ${({ theme }) => theme.color.white};
   cursor: pointer;
   transition: opacity 0.4s;

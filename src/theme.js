@@ -7,4 +7,5 @@ export const ThemeLight = {
     scienceBlue: "rgb(3,102,214)",
     iron: "rgba(209,213,218, .3)",
   },
+  radius: "4px",
 };
