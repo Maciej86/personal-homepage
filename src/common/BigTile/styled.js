@@ -18,5 +18,6 @@ export const Content = styled.div`
   margin-top: 15px;
   padding-top: 15px;
   border-top: 1px solid ${({ theme }) => theme.color.iron};
+  font-size: 18px;
   color: ${({ theme }) => theme.color.slateGray};
 `;
