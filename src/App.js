@@ -1,8 +1,8 @@
-import { Header } from "./Header";
 import { ThemeProvider } from "styled-components";
 import { ThemeLight } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
-import { Skills } from "./Skills";
+import { Header } from "././features/Header";
+import { Skills } from "././features/Skills";
 
 function App() {
   return (
