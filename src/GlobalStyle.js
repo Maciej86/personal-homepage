@@ -23,6 +23,6 @@ export const GlobalStyle = createGlobalStyle`
   #root {
     width: 90%;
     max-width: 1216px;
-    margin: 150px 10px 30px 10px;
+    margin: 30px 10px 30px 10px;
   }
 `;

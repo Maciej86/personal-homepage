@@ -11,8 +11,8 @@ export const HeaderWrapper = styled.header`
 `;
 
 export const Foto = styled.div`
-  width: 398px;
-  height: 398px;
+  width: 364px;
+  height: 364px;
 
   @media (max-width: 570px) {
     width: 250px;
@@ -47,10 +47,30 @@ export const ThisIs = styled.p`
 
 export const Name = styled.h1`
   margin: 0;
+  font-size: 38px;
   color: ${({ theme }) => theme.color.mineShaft};
 `;
 
 export const Paragraph = styled.p`
   margin-top: 20px;
   color: ${({ theme }) => theme.color.salateGray};
+  line-height: 1.5;
+`;
+
+export const Email = styled.button`
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-top: 32px;
+  padding: 12px 16px;
+  background: ${({ theme }) => theme.color.scienceBlue};
+  border: 1px solid ${({ theme }) => theme.color.iron};
+  border-radius: 4px;
+  color: ${({ theme }) => theme.color.white};
+  cursor: pointer;
+  transition: opacity 0.4s;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;

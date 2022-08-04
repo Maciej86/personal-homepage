@@ -1,4 +1,5 @@
 import MyFoto from "./maciej_rosciszewski.webp";
+import Message from "./message.svg";
 import "normalize.css";
 import {
   HeaderWrapper,
@@ -8,6 +9,7 @@ import {
   ThisIs,
   Name,
   Paragraph,
+  Email,
 } from "./styled";
 
 const Header = () => (
@@ -22,6 +24,10 @@ const Header = () => (
         I'm a passionate Frontend Developer in love with React, currently
         looking for new job opportunities.
       </Paragraph>
+      <Email>
+        <img src={Message} alt="" />
+        Hire Me
+      </Email>
     </Content>
   </HeaderWrapper>
 );
