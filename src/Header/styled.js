@@ -53,7 +53,7 @@ export const Name = styled.h1`
 
 export const Paragraph = styled.p`
   margin-top: 20px;
-  color: ${({ theme }) => theme.color.salateGray};
+  color: ${({ theme }) => theme.color.slateGray};
   line-height: 1.5;
 `;
 
