@@ -14,6 +14,11 @@ export const Header = styled.h2`
   font-size: 30px;
 `;
 
+export const Span = styled.span`
+  margin-left: 16px;
+  font-size: 22px;
+`;
+
 export const Content = styled.div`
   margin-top: 15px;
   padding-top: 15px;

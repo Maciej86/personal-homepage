@@ -1,8 +1,10 @@
-import { Wrapper, Header, Content } from "./styled";
+import { Wrapper, Header, Span, Content } from "./styled";
 
-export const BigTile = ({ header, content }) => (
+export const BigTile = ({ header, images, content }) => (
   <Wrapper>
-    <Header>{header}</Header>
+    <Header>
+      {header} <Span>{images}</Span>
+    </Header>
     <Content>{content}</Content>
   </Wrapper>
 );
