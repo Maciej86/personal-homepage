@@ -1,4 +1,4 @@
-import Header from "./Header";
+import { Header } from "./Header";
 import { ThemeProvider } from "styled-components";
 import { ThemeLight } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";

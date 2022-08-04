@@ -12,7 +12,7 @@ import {
   Email,
 } from "./styled";
 
-const Header = () => (
+export const Header = () => (
   <HeaderWrapper>
     <Foto>
       <Image src={MyFoto} alt="Maciej Rościszewski" />
@@ -31,5 +31,3 @@ const Header = () => (
     </Content>
   </HeaderWrapper>
 );
-
-export default Header;
