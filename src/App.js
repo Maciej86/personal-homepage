@@ -3,6 +3,7 @@ import { ThemeLight } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import { Header } from "././features/Header";
 import { Skills } from "././features/Skills";
+import { NextLearn } from "./features/NextLearn";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <Skills />
+      <NextLearn />
     </ThemeProvider>
   );
 }
