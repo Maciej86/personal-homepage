@@ -1,5 +1,5 @@
 import { BigTile } from "../../common/BigTile";
-import { List, Item } from "./styled";
+import { List, Item } from "../../common/BigTile/styled";
 
 export const Skills = () => {
   const ListSkills = (
