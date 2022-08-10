@@ -8,8 +8,8 @@ const githubSlice = createSlice({
   },
   reducers: {
     fetchRepoGithub: () => {},
-    fetchRepoGithubSucces: (state, { payload: fatchRepo }) => {
-      state.repo = fatchRepo;
+    fetchRepoGithubSucces: (state, { payload: fetchRepo }) => {
+      state.repo = fetchRepo;
       state.loading = true;
     },
   },
