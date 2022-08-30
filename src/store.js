@@ -1,13 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import { githubSaga } from "./saga";
-import githubSlice from "./slice";
+import githubReducer from "./slice";
 
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
   reducer: {
-    github: githubSlice,
+    github: githubReducer,
   },
   middleware: [sagaMiddleware],
 });

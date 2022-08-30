@@ -6,13 +6,12 @@ import { Wrapper } from "./styled";
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
+  const repoGithub = useSelector(selectRepo);
+  console.log(repoGithub);
 
   useEffect(() => {
     dispatch(fetchRepoGithub());
   }, [dispatch]);
-
-  const repoGithub = useSelector(selectRepo);
-  console.log(repoGithub);
 
   return (
     <Wrapper>
