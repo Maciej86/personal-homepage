@@ -31,7 +31,7 @@ export const Repo = styled.div`
 `;
 
 export const Text = styled.span`
-  width: 105px;
+  width: 80px;
 `;
 
 export const Link = styled.a`
