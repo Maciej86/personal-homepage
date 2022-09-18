@@ -8,7 +8,7 @@ import {
 
 function* fetchRepoGithubHendler() {
   try {
-    yield delay(4500);
+    yield delay(2500);
     const repoGithub = yield call(getRepoGithub);
     yield put(fetchRepoGithubSucces(repoGithub));
   } catch (error) {
