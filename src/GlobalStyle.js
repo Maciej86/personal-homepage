@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     margin-top: 119px;
     background: ${({ theme }) => theme.color.background};
     font-family: 'Inter', sans-serif;
+    color: ${({ theme }) => theme.color.mineShaft};
     word-break: break-word;
   }
 
