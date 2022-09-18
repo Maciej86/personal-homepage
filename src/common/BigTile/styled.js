@@ -30,6 +30,14 @@ export const Content = styled.div`
 export const List = styled.ul`
   column-count: 3;
   padding: 0;
+
+  @media (max-width: 1070px) {
+    column-count: 2;
+  }
+
+  @media (max-width: 800px) {
+    column-count: 1;
+  }
 `;
 
 export const Item = styled.li`
