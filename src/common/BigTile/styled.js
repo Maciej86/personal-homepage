@@ -12,6 +12,7 @@ export const Header = styled.h2`
   margin: 0;
   font-weight: 900;
   font-size: 30px;
+  color: ${({ theme }) => theme.color.mineShaft};
 `;
 
 export const Span = styled.span`
