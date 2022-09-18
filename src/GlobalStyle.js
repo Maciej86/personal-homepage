@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     display: flex;
     justify-content: center;
-    margin-top: 119px;
+    margin-top: 20px;
     background: ${({ theme }) => theme.color.background};
     font-family: 'Inter', sans-serif;
     color: ${({ theme }) => theme.color.mineShaft};
