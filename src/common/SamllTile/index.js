@@ -1,7 +1,6 @@
 import { Wrapper, Title, Paragraph, Repo, Text, Link } from "./styled";
 
 export const SmallTile = ({ gitRepo }) => {
-  console.log(gitRepo);
   return gitRepo?.map((repo) => (
     <Wrapper key={repo.id}>
       <Title>{repo.name}</Title>
