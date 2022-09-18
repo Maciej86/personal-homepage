@@ -1,13 +1,19 @@
-import { takeEvery, call, put } from "redux-saga/effects";
+import { takeEvery, call, put, delay } from "redux-saga/effects";
 import { getRepoGithub } from "../../getRepoGithub";
-import { fetchRepoGithub, fetchRepoGithubSucces } from "./slice";
+import {
+  fetchRepoGithub,
+  fetchRepoGithubError,
+  fetchRepoGithubSucces,
+} from "./slice";
 
 function* fetchRepoGithubHendler() {
   try {
+    yield delay(4500);
     const repoGithub = yield call(getRepoGithub);
     yield put(fetchRepoGithubSucces(repoGithub));
   } catch (error) {
-    console.log(error);
+    yield put(fetchRepoGithubError());
+    console.error(error);
   }
 }
 
