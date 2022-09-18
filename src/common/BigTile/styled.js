@@ -41,17 +41,24 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
+  display: flex;
+  align-items: center;
   padding: 8px 0;
   list-style: none;
 
   &:before {
     content: "";
     display: inline-block;
-    width: 9px;
-    height: 9px;
+    min-width: 9px;
+    min-height: 9px;
     margin-right: 20px;
-    margin-bottom: 2px;
     background: ${({ theme }) => theme.color.scienceBlue};
     border-radius: 50%;
+  }
+
+  @media (max-width: 350px) {
+    &:before {
+      margin-right: 10px;
+    }
   }
 `;
