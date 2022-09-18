@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-homepage/static/css/main.58462fbc.css",
-    "main.js": "/personal-homepage/static/js/main.1f5df447.js",
+    "main.js": "/personal-homepage/static/js/main.be4372de.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/maciej_rosciszewski.webp": "/personal-homepage/static/media/maciej_rosciszewski.eec48b6bf2c992daf134.webp",
     "index.html": "/personal-homepage/index.html",
     "static/media/message.svg": "/personal-homepage/static/media/message.514461521cb8d76b55e16ac430346abb.svg",
     "main.58462fbc.css.map": "/personal-homepage/static/css/main.58462fbc.css.map",
-    "main.1f5df447.js.map": "/personal-homepage/static/js/main.1f5df447.js.map",
+    "main.be4372de.js.map": "/personal-homepage/static/js/main.be4372de.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.1f5df447.js"
+    "static/js/main.be4372de.js"
   ]
 }
