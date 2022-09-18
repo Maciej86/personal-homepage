@@ -1,5 +1,5 @@
 import { takeEvery, call, put } from "redux-saga/effects";
-import { getRepoGithub } from "./getRepoGithub";
+import { getRepoGithub } from "../../getRepoGithub";
 import { fetchRepoGithub, fetchRepoGithubSucces } from "./slice";
 
 function* fetchRepoGithubHendler() {
