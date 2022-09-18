@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personal-homepage/static/css/main.58462fbc.css",
-    "main.js": "/personal-homepage/static/js/main.774ae2ae.js",
+    "main.js": "/personal-homepage/static/js/main.abbe5fe9.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
-    "static/media/maciej_rosciszewski.webp": "/personal-homepage/static/media/maciej_rosciszewski.a38d944e7c9f420bb75e.webp",
+    "static/media/maciej_rosciszewski.webp": "/personal-homepage/static/media/maciej_rosciszewski.c4851155f3e76fc8044c.webp",
     "static/media/github.svg": "/personal-homepage/static/media/github.571d1ccb5b05142ffef2ab4d835a907a.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/danger.svg": "/personal-homepage/static/media/danger.368eab1b87e3c2785bab7da11c278b44.svg",
     "static/media/message.svg": "/personal-homepage/static/media/message.514461521cb8d76b55e16ac430346abb.svg",
     "main.58462fbc.css.map": "/personal-homepage/static/css/main.58462fbc.css.map",
-    "main.774ae2ae.js.map": "/personal-homepage/static/js/main.774ae2ae.js.map",
+    "main.abbe5fe9.js.map": "/personal-homepage/static/js/main.abbe5fe9.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.774ae2ae.js"
+    "static/js/main.abbe5fe9.js"
   ]
 }
