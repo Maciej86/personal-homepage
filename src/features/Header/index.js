@@ -1,5 +1,5 @@
 import MyFoto from "./maciej_rosciszewski.webp";
-import Message from "./message.svg";
+import Message from "../../common/icons/message.svg";
 import "normalize.css";
 import {
   HeaderWrapper,
