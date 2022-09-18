@@ -24,18 +24,20 @@ export const Repo = styled.div`
   margin-bottom: 8px;
   gap: 10px;
 
-  @media (max-width: 585px) {
+  @media (max-width: 990px) {
     flex-direction: column;
+    margin-bottom: 20px;
   }
 `;
 
 export const Text = styled.span`
-  width: 70px;
+  width: 105px;
 `;
 
 export const Link = styled.a`
   color: ${({ theme }) => theme.color.scienceBlue};
   text-decoration: none;
+  line-height: 1.5;
 
   &:hover {
     text-decoration: underline;
