@@ -1,13 +1,12 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { SmallTile } from "../../common/SamllTile/index";
-import { fetchRepoGithub, selectRepo } from "../../slice";
+import { fetchRepoGithub, selectRepoState } from "../../slice";
 import { Wrapper } from "./styled";
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
-  const repoGithub = useSelector(selectRepo);
-  console.log(repoGithub);
+  const repoGithub = useSelector(selectRepoState);
 
   useEffect(() => {
     dispatch(fetchRepoGithub());
@@ -15,7 +14,7 @@ export const Portfolio = () => {
 
   return (
     <Wrapper>
-      <SmallTile />
+      <SmallTile gitRepo={repoGithub} />
     </Wrapper>
   );
 };

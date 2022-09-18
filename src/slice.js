@@ -17,6 +17,7 @@ const githubSlice = createSlice({
 
 export const { fetchRepoGithub, fetchRepoGithubSucces } = githubSlice.actions;
 
-export const selectRepo = (state) => state.repo;
+export const selectRepo = (state) => state.github;
+export const selectRepoState = (state) => selectRepo(state).repo;
 
 export default githubSlice.reducer;
