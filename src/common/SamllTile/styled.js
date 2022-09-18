@@ -7,6 +7,10 @@ export const Wrapper = styled.div`
   border-radius: ${({ theme }) => theme.radius};
   font-size: 18px;
   color: ${({ theme }) => theme.color.slateGray};
+
+  @media (max-width: 750px) {
+    padding: 36px;
+  }
 `;
 
 export const Title = styled.h3`
@@ -27,6 +31,7 @@ export const Repo = styled.div`
   @media (max-width: 990px) {
     flex-direction: column;
     margin-bottom: 20px;
+    gap: 0;
   }
 `;
 
