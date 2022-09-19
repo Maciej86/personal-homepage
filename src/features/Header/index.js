@@ -24,7 +24,7 @@ export const Header = () => (
         I'm a passionate Frontend Developer in love with React, currently
         looking for new job opportunities.
       </Paragraph>
-      <Email>
+      <Email href="mailto:maciejrosciszewski@gmail.com">
         <img src={Message} alt="" />
         Hire Me
       </Email>

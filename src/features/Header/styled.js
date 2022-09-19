@@ -57,9 +57,10 @@ export const Paragraph = styled.p`
   line-height: 1.5;
 `;
 
-export const Email = styled.button`
+export const Email = styled.a`
   display: flex;
   align-items: center;
+  width: 150px;
   gap: 19px;
   margin-top: 32px;
   padding: 12px 16px;
@@ -67,6 +68,7 @@ export const Email = styled.button`
   border: 1px solid ${({ theme }) => theme.color.iron};
   border-radius: ${({ theme }) => theme.radius};
   color: ${({ theme }) => theme.color.white};
+  text-decoration: none;
   cursor: pointer;
   transition: opacity 0.4s;
 
