@@ -7,9 +7,14 @@ export const Tile = styled.div`
   border-radius: ${({ theme }) => theme.radius};
   font-size: 18px;
   color: ${({ theme }) => theme.color.slateGray};
+  transition: border-color 0.5s;
 
   @media (max-width: 750px) {
     padding: 36px;
+  }
+
+  &:hover {
+    border-color: ${({ theme }) => theme.color.shadowTile};
   }
 `;
 
