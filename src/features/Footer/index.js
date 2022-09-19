@@ -1,4 +1,7 @@
-import { Wrapper, Talk, Email, Paragraph } from "./styled";
+import { Wrapper, Talk, Email, Text, Icons, Image } from "./styled";
+import Github from "../../common/icons/github.svg";
+import Facebook from "../../common/icons/facebook.svg";
+import Linkedin from "../../common/icons/linkedin.svg";
 
 export const Footer = () => {
   return (
@@ -7,12 +10,23 @@ export const Footer = () => {
       <Email href="mailto:maciejrosciszewski@gmail.com">
         maciejrosciszewski@gmail.com
       </Email>
-      <Paragraph>
+      <Text>
         I've always liked programming, the frontend is my favorite. Currently, I
         would like to start working as a programmer in a professional company.
         If my projects convince you to my person, I am waiting for an e-mail and
         contact on Linkedin.
-      </Paragraph>
+      </Text>
+      <Icons>
+        <a href="https://github.com/Maciej86">
+          <Image src={Github} alt="Github" />
+        </a>
+        <a href="https://www.facebook.com/maciej.rosciszewski.12">
+          <Image src={Facebook} alt="Facebook" />
+        </a>
+        <a href="#">
+          <Image src={Linkedin} alt="Linkedin" />
+        </a>
+      </Icons>
     </Wrapper>
   );
 };
