@@ -8,7 +8,10 @@ export const Header = styled.div`
   text-align: center;
 `;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+  filter: invert(28%) sepia(75%) saturate(6943%) hue-rotate(203deg)
+    brightness(97%) contrast(98%);
+`;
 
 export const Title = styled.h2`
   margin: 8px 0;
