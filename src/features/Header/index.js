@@ -2,7 +2,7 @@ import MyFoto from "./maciej_rosciszewski.webp";
 import Message from "../../common/icons/message.svg";
 import "normalize.css";
 import {
-  HeaderWrapper,
+  Wrapper,
   Foto,
   Image,
   Content,
@@ -13,7 +13,7 @@ import {
 } from "./styled";
 
 export const Header = () => (
-  <HeaderWrapper>
+  <Wrapper>
     <Foto>
       <Image src={MyFoto} alt="Maciej Rościszewski" />
     </Foto>
@@ -29,5 +29,5 @@ export const Header = () => (
         Hire Me
       </Email>
     </Content>
-  </HeaderWrapper>
+  </Wrapper>
 );
