@@ -1,8 +1,8 @@
-import { Wrapper, Title, Paragraph, Repo, Text, Link } from "./styled";
+import { Tile, Title, Paragraph, Repo, Text, Link } from "./styled";
 
 export const SmallTile = ({ gitRepo }) => {
   return gitRepo?.map((repo) => (
-    <Wrapper key={repo.id}>
+    <Tile key={repo.id}>
       <Title>{repo.name}</Title>
       <Paragraph>{repo.description}</Paragraph>
       <Repo>
@@ -13,6 +13,6 @@ export const SmallTile = ({ gitRepo }) => {
         <Text>Code:</Text>
         <Link href={repo.html_url}>{repo.html_url}</Link>
       </Repo>
-    </Wrapper>
+    </Tile>
   ));
 };

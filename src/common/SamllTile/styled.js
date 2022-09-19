@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Tile = styled.div`
   padding: 56px;
   background: ${({ theme }) => theme.color.white};
   border: 6px solid ${({ theme }) => theme.color.iron};
