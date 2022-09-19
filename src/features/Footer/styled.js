@@ -37,10 +37,18 @@ export const Icons = styled.p`
   margin: 56px 0 30px 0;
 `;
 
+export const Link = styled.a`
+  display: inline-block;
+  margin: 0 24px 24px 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
+`;
+
 export const Image = styled.img`
   width: 48px;
   height: 48px;
-  margin-right: 24px;
   filter: invert(7%) sepia(99%) saturate(0%) hue-rotate(187deg) brightness(75%)
     contrast(81%);
   transition: filter 0.8s;

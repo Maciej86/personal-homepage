@@ -1,4 +1,4 @@
-import { Wrapper, Talk, Email, Text, Icons, Image } from "./styled";
+import { Wrapper, Talk, Email, Text, Icons, Link, Image } from "./styled";
 import Github from "../../common/icons/github.svg";
 import Facebook from "../../common/icons/facebook.svg";
 import Linkedin from "../../common/icons/linkedin.svg";
@@ -17,15 +17,15 @@ export const Footer = () => {
         contact on Linkedin.
       </Text>
       <Icons>
-        <a href="https://github.com/Maciej86">
+        <Link href="https://github.com/Maciej86">
           <Image src={Github} alt="Github" />
-        </a>
-        <a href="https://www.facebook.com/maciej.rosciszewski.12">
+        </Link>
+        <Link href="https://www.facebook.com/maciej.rosciszewski.12">
           <Image src={Facebook} alt="Facebook" />
-        </a>
-        <a href="#">
+        </Link>
+        <Link href="#">
           <Image src={Linkedin} alt="Linkedin" />
-        </a>
+        </Link>
       </Icons>
     </Wrapper>
   );
