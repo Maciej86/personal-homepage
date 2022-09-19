@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/personal-homepage/static/css/main.58462fbc.css",
-    "main.js": "/personal-homepage/static/js/main.e9b1c125.js",
+    "main.js": "/personal-homepage/static/js/main.f29bbfe5.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/maciej_rosciszewski.webp": "/personal-homepage/static/media/maciej_rosciszewski.c4851155f3e76fc8044c.webp",
-    "static/media/github.svg": "/personal-homepage/static/media/github.571d1ccb5b05142ffef2ab4d835a907a.svg",
+    "static/media/github.svg": "/personal-homepage/static/media/github.09abe07d9aebd72f04b4118999889c9a.svg",
     "index.html": "/personal-homepage/index.html",
+    "static/media/linkedin.svg": "/personal-homepage/static/media/linkedin.2c26b104242a1c77c13c1498fc1cd787.svg",
     "static/media/danger.svg": "/personal-homepage/static/media/danger.368eab1b87e3c2785bab7da11c278b44.svg",
     "static/media/message.svg": "/personal-homepage/static/media/message.514461521cb8d76b55e16ac430346abb.svg",
+    "static/media/facebook.svg": "/personal-homepage/static/media/facebook.14f43e9c25d473ecd49ceaf878f965b9.svg",
     "main.58462fbc.css.map": "/personal-homepage/static/css/main.58462fbc.css.map",
-    "main.e9b1c125.js.map": "/personal-homepage/static/js/main.e9b1c125.js.map",
+    "main.f29bbfe5.js.map": "/personal-homepage/static/js/main.f29bbfe5.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.e9b1c125.js"
+    "static/js/main.f29bbfe5.js"
   ]
 }
