@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Tile = styled.div`
   padding: 56px;
-  background: ${({ theme }) => theme.color.white};
+  background: ${({ theme }) => theme.color.backgroundTile};
   border: 6px solid ${({ theme }) => theme.color.iron};
   border-radius: ${({ theme }) => theme.radius};
   font-size: 18px;
