@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { SmallTile } from "../../common/SamllTile/index";
-import { fetchRepoGithub, selectRepoLoading, selectRepoState } from "./slice";
+import { fetchRepoGithub, selectRepoLoading, selectRepoState } from "../slice";
 import {
   Wrapper,
   WrapperTile,
