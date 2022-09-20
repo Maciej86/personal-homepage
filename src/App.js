@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import { useSelector } from "react-redux";
 import { ThemeLight, ThemeDark } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import { Header } from "././features/Header";
@@ -7,7 +8,6 @@ import { NextLearn } from "./features/NextLearn";
 import { Portfolio } from "./features/Portfolio";
 import { Footer } from "./features/Footer";
 import { Theme } from "./features/Theme";
-import { useSelector } from "react-redux";
 import { selectTheme } from "./features/slice";
 
 function App() {
