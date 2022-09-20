@@ -1,7 +1,7 @@
 import { takeEvery, call, put, delay, select } from "redux-saga/effects";
 import { getRepoGithub } from "../getRepoGithub";
 import {
-  changeTheme,
+  toggleTheme,
   fetchRepoGithub,
   fetchRepoGithubError,
   fetchRepoGithubSucces,
@@ -20,12 +20,12 @@ function* fetchRepoGithubHendler() {
   }
 }
 
-function* changeThemebHendler() {
+function* toggleThemeHendler() {
   const theme = yield select(selectTheme);
   yield call(saveThemeInLocalStorage, theme);
 }
 
 export function* githubSaga() {
   yield takeEvery(fetchRepoGithub.type, fetchRepoGithubHendler);
-  yield takeEvery(changeTheme.type, changeThemebHendler);
+  yield takeEvery(toggleTheme.type, toggleThemeHendler);
 }

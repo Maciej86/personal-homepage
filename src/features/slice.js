@@ -19,7 +19,7 @@ const githubSlice = createSlice({
     fetchRepoGithubError: (state) => {
       state.loading = "error";
     },
-    changeTheme: (state) => {
+    toggleTheme: (state) => {
       state.theme = !state.theme;
     },
   },
@@ -29,7 +29,7 @@ export const {
   fetchRepoGithub,
   fetchRepoGithubSucces,
   fetchRepoGithubError,
-  changeTheme,
+  toggleTheme,
 } = githubSlice.actions;
 
 export const selectRepo = (state) => state.github;
