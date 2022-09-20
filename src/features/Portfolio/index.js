@@ -18,7 +18,6 @@ export const Portfolio = () => {
   const dispatch = useDispatch();
   const repoGithub = useSelector(selectRepoState);
   const loading = useSelector(selectRepoLoading);
-  console.log(loading);
 
   useEffect(() => {
     dispatch(fetchRepoGithub());
