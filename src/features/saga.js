@@ -11,7 +11,7 @@ import { saveThemeInLocalStorage } from "./Theme/themeLocalStorage";
 
 function* fetchRepoGithubHendler() {
   try {
-    yield delay(2500);
+    yield delay(1500);
     const repoGithub = yield call(getRepoGithub);
     yield put(fetchRepoGithubSucces(repoGithub));
   } catch (error) {
