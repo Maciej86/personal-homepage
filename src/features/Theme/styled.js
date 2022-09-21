@@ -12,6 +12,10 @@ export const Text = styled.p`
   font-weight: 700;
   color: ${({ theme }) => theme.color.slateGray};
   text-transform: uppercase;
+
+  @media (max-width: 570px) {
+    display: none;
+  }
 `;
 
 export const Button = styled.button`
