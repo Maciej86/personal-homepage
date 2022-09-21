@@ -23,7 +23,7 @@ export const Footer = () => {
         <Link href="https://www.facebook.com/maciej.rosciszewski.12">
           <Image src={Facebook} alt="Facebook" />
         </Link>
-        <Link href="#">
+        <Link href="www.linkedin.com/in/maciej-rościszewski">
           <Image src={Linkedin} alt="Linkedin" />
         </Link>
       </Icons>
