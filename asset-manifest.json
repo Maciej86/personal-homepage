@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-homepage/static/css/main.58462fbc.css",
-    "main.js": "/personal-homepage/static/js/main.20f81be9.js",
+    "main.js": "/personal-homepage/static/js/main.5e177713.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/maciej_rosciszewski.webp": "/personal-homepage/static/media/maciej_rosciszewski.c4851155f3e76fc8044c.webp",
     "static/media/on_dark.svg": "/personal-homepage/static/media/on_dark.57bcb33749bc5392cd8017f73eef6484.svg",
@@ -13,11 +13,11 @@
     "static/media/message.svg": "/personal-homepage/static/media/message.514461521cb8d76b55e16ac430346abb.svg",
     "static/media/facebook.svg": "/personal-homepage/static/media/facebook.14f43e9c25d473ecd49ceaf878f965b9.svg",
     "main.58462fbc.css.map": "/personal-homepage/static/css/main.58462fbc.css.map",
-    "main.20f81be9.js.map": "/personal-homepage/static/js/main.20f81be9.js.map",
+    "main.5e177713.js.map": "/personal-homepage/static/js/main.5e177713.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.20f81be9.js"
+    "static/js/main.5e177713.js"
   ]
 }
