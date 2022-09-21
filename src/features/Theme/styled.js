@@ -30,7 +30,7 @@ export const Span = styled.span`
   padding: 1px 4px;
   background: ${({ theme }) => theme.color.slateGray};
   border-radius: 50%;
-  transform: translateX(-9px);
+  transform: translateX(-10px);
   transition: transform 0.5s, background 0.5s;
 
   ${({ toggleTheme }) =>
