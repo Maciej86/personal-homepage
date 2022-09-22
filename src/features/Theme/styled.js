@@ -48,4 +48,5 @@ export const Span = styled.span`
 export const Img = styled.img`
   width: 14px;
   height: 14px;
+  margin-top: 2px;
 `;
