@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.footer`
   margin-top: 80px;
@@ -52,6 +52,13 @@ export const Image = styled.img`
   filter: invert(7%) sepia(99%) saturate(0%) hue-rotate(187deg) brightness(75%)
     contrast(81%);
   transition: filter 0.8s;
+
+  ${({ toggleTheme }) =>
+    toggleTheme &&
+    css`
+      filter: invert(99%) sepia(10%) saturate(13%) hue-rotate(96deg)
+        brightness(117%) contrast(100%);
+    `}
 
   &:hover {
     filter: invert(28%) sepia(75%) saturate(6943%) hue-rotate(203deg)
