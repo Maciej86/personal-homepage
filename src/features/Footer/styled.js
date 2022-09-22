@@ -44,24 +44,13 @@ export const Link = styled.a`
   &:last-child {
     margin-right: 0;
   }
-`;
 
-export const Image = styled.img`
-  width: 48px;
-  height: 48px;
-  filter: invert(7%) sepia(99%) saturate(0%) hue-rotate(187deg) brightness(75%)
-    contrast(81%);
-  transition: filter 0.8s;
+  & path {
+    fill: ${({ theme }) => theme.color.mineShaft};
+    transition: fill 0.5s;
+  }
 
-  ${({ toggleTheme }) =>
-    toggleTheme &&
-    css`
-      filter: invert(99%) sepia(10%) saturate(13%) hue-rotate(96deg)
-        brightness(117%) contrast(100%);
-    `}
-
-  &:hover {
-    filter: invert(28%) sepia(75%) saturate(6943%) hue-rotate(203deg)
-      brightness(97%) contrast(98%);
+  & path:hover {
+    fill: ${({ theme }) => theme.color.scienceBlue};
   }
 `;
