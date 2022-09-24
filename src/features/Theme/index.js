@@ -6,7 +6,6 @@ import DarkTheme from "../../common/icons/on_dark.svg";
 
 export const Theme = () => {
   const theme = useSelector(selectTheme);
-  console.log(theme);
   const dispatch = useDispatch();
 
   return (
