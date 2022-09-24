@@ -18,9 +18,11 @@ function App() {
       <GlobalStyle />
       <Theme />
       <Header />
-      <Skills />
-      <NextLearn />
-      <Portfolio />
+      <main>
+        <Skills />
+        <NextLearn />
+        <Portfolio />
+      </main>
       <Footer />
     </ThemeProvider>
   );
