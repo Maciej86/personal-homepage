@@ -11,6 +11,10 @@ export const Talk = styled.p`
   color: ${({ theme }) => theme.color.slateGray};
 `;
 
+export const Address = styled.address`
+  font-style: unset;
+`;
+
 export const Email = styled.a`
   display: inline-block;
   margin: 24px 0;

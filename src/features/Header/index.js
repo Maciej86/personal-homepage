@@ -1,6 +1,6 @@
 import MyFoto from "./maciej_rosciszewski.webp";
 import Message from "../../common/icons/message.svg";
-import "normalize.css";
+import { email } from "../email";
 import {
   Wrapper,
   Foto,
@@ -24,7 +24,7 @@ export const Header = () => (
         I'm a passionate Frontend Developer in love with React, currently
         looking for new job opportunities.
       </Paragraph>
-      <Email href="mailto:maciejrosciszewski@gmail.com">
+      <Email href={email} title={email}>
         <img src={Message} alt="" />
         Hire Me
       </Email>
