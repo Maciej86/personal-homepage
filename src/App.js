@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { useSelector } from "react-redux";
+import "normalize.css";
 import { ThemeLight, ThemeDark } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import { Header } from "././features/Header";
