@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     background: ${({ theme }) => theme.color.background};
     font-family: 'Inter', sans-serif;
     color: ${({ theme }) => theme.color.mineShaft};
+    transition: background .5s;
     word-break: break-word;
   }
 
