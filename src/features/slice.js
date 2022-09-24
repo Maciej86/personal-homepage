@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getThemeInLocalStorage } from "./Theme/themeLocalStorage";
 
-const githubSlice = createSlice({
-  name: "github",
+const personSlice = createSlice({
+  name: "person",
   initialState: {
     repo: [],
     loading: "",
@@ -30,11 +30,11 @@ export const {
   fetchRepoGithubSucces,
   fetchRepoGithubError,
   toggleTheme,
-} = githubSlice.actions;
+} = personSlice.actions;
 
-export const selectRepo = (state) => state.github;
+export const selectRepo = (state) => state.person;
 export const selectRepoState = (state) => selectRepo(state).repo;
 export const selectRepoLoading = (state) => selectRepo(state).loading;
 export const selectTheme = (state) => selectRepo(state).theme;
 
-export default githubSlice.reducer;
+export default personSlice.reducer;

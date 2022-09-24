@@ -7,7 +7,7 @@ const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
   reducer: {
-    github: githubReducer,
+    person: githubReducer,
   },
   middleware: [sagaMiddleware],
 });
