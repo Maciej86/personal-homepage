@@ -20,9 +20,9 @@ export const ParagraphButton = styled.p`
 
 export const Button = styled.a`
   padding: 12px 16px;
-  background: ${({ theme }) => theme.color.scienceBlue};
+  background: ${({ theme }) => theme.color.buttonBackground};
   border-radius: ${({ theme }) => theme.radius};
   font-weight: 700;
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.buttonText};
   text-decoration: none;
 `;

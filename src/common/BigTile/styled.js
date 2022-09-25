@@ -24,9 +24,9 @@ export const Span = styled.span`
 export const Content = styled.div`
   margin-top: 15px;
   padding-top: 15px;
-  border-top: 1px solid ${({ theme }) => theme.color.iron};
+  border-top: 1px solid ${({ theme }) => theme.color.border};
   font-size: 18px;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.textColorLight};
 `;
 
 export const List = styled.ul`
@@ -54,7 +54,7 @@ export const Item = styled.li`
     min-width: 9px;
     min-height: 9px;
     margin-right: 20px;
-    background: ${({ theme }) => theme.color.scienceBlue};
+    background: ${({ theme }) => theme.color.buttonBackground};
     border-radius: 50%;
   }
 

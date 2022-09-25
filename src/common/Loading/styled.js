@@ -14,8 +14,8 @@ export const Loader = styled.div`
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  border: 11px solid ${({ theme }) => theme.color.iron};
-  border-left-color: ${({ theme }) => theme.color.scienceBlue};
+  border: 11px solid ${({ theme }) => theme.color.border};
+  border-left-color: ${({ theme }) => theme.color.buttonBackground};
   border-radius: 50%;
   animation: spinLoad 0.7s infinite linear;
 

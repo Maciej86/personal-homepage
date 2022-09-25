@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const Tile = styled.div`
   padding: 56px;
   background: ${({ theme }) => theme.color.backgroundTile};
-  border: 6px solid ${({ theme }) => theme.color.iron};
+  border: 6px solid ${({ theme }) => theme.color.border};
   border-radius: ${({ theme }) => theme.radius};
   font-size: 18px;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.textColorLight};
   transition: border-color 0.5s;
 
   @media (max-width: 750px) {
@@ -21,7 +21,7 @@ export const Tile = styled.div`
 export const Title = styled.h3`
   font-weight: 700;
   font-size: 24px;
-  color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.color.textBlue};
 `;
 
 export const Paragraph = styled.p`
@@ -45,7 +45,7 @@ export const Text = styled.span`
 `;
 
 export const Link = styled.a`
-  color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.color.textBlue};
   text-decoration: none;
   line-height: 1.5;
 
